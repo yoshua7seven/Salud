@@ -1,3 +1,5 @@
+<section class="content">
+  
 <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -15,7 +17,7 @@
     <!-- Main content -->
     <section class="content">
       <div class="row">
-      	<div class="col-md-6">
+        <div class="col-md-6">
           <div class="box">
             <div class="box-header with-border">
               <h3 class="box-title">Datos personales</h3>

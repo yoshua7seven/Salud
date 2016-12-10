@@ -81,7 +81,7 @@
         <!-- Logo -->
         <a href="<?= URL ?>" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>P</b>TILLA</span>
+          <span class="logo-mini"><b>LOGO</b>---</span>
           <!-- logo for regular state and mobile devices -->
           <span class="logo-lg"><b>Salud</b></span>
         </a>
@@ -189,16 +189,22 @@
 
 <?php	} public function __destruct(){ ?>
 	
-	<footer class="main-footer">
+
+ <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      <b>Version</b> 2.3.7
+    </div>
+    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+    reserved.
+  </footer>
+      
+  <footer class="main-footer">
         <div class="pull-right hidden-xs">
           <b>Suite | Modulo Salud</b>
         </div>
         <strong><a>Alcaldia del Municipio Sucre</a>.</strong>
-      </footer>
-
-      
-    
-  
+  </footer>
+</section>  
 
 
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -213,6 +219,7 @@
 <?php
 
 		}
+
 	}
 
 ?>
